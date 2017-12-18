@@ -1,5 +1,5 @@
 # luamacros-documentation
-Complementary documentation of the awesome https://github.com/me2d13/luamacros project
+Complementary documentation for the awesome https://github.com/me2d13/luamacros project.
 
 This page aims to help new luamacros adopters and for that ones who like to use it better as well
 
