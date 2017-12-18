@@ -61,10 +61,30 @@ Easy isn't it? So let's dig in.
 The follow section describes each function avialable for lumacros to the script, just bear in mint that lua standard library functions are still avialable and a little of knowledge about lua is required but not mandatory, once it is very close to almost all fammous languages on the market, [further details here](https://www.lua.org/manual/5.3/manual.html).
 
 ### print
+To print a string message to log console
+
+Usage:
+```  lua
+print("Hello World!")
+``` 
 ### clear
+To clear all log entries on log console 
+
+Usage:
+``` lua
+clear()
+```
 ### lmc_log_module
 ### lmc_log_spool
 ### lmc_log_all
+Enables the debug mode, sending all message logs to log console
+
+Usage:
+``` lua
+lmc_log_all()
+```
+Once all Luamacros messages are logged on this mode, it is a good start point to report a bug or to trace down a bad behaviour
+Another side effect is the fact that it logs the keystrokes of all keyboards, so it is useful when trying to figure out some [virtua key-code](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx) to remap or to trigger
 ### lmc_send_keys
 ### lmc_send_input
 ### lmc_spawn
@@ -72,7 +92,26 @@ The follow section describes each function avialable for lumacros to the script,
 ### lmc_load
 ### lmc_say
 ### lmc_get_window_title
+To get the Application Window Title, useful to to have different behaviour on different programs
+
+Usage:
+``` lua
+lmc_get_window_title()
+```
+
+Obs:
+1. Good to be set to a variable
+2. Windows title doesn't mean program exe name
+3. May not work with certain programs
+
 ### lmc_sleep
+To make the script stops for a specific amount of time, in milliseconds
+
+Usage:
+``` lua
+lmc_sleep(1000) -- to sleep the flow for 1 second
+```
+
 ### lmc_reset
 ### lmc_print_devices
 ### lmc_get_devices
