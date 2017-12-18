@@ -60,17 +60,55 @@ Easy isn't it? So let's dig in.
 ## Luamacros functions
 The follow section describes each function avialable for lumacros to the script, just bear in mint that lua standard library functions are still avialable and a little of knowledge about lua is required but not mandatory, once it is very close to almost all fammous languages on the market, [further details here](https://www.lua.org/manual/5.3/manual.html).
 
+### List of Functions
+* [print](#print)
+* [clear](#clear)
+* [lmc_log_module](#lmc_log_module)
+* [lmc_log_spool](#lmc_log_spool)
+* [lmc_log_all](#lmc_log_all)
+* [lmc_send_keys](#lmc_send_keys)
+* [lmc_send_input](#lmc_send_input)
+* [lmc_spawn](#lmc_spawn)
+* [lmc_minimize](#lmc_minimize)
+* [lmc_load](#lmc_load)
+* [lmc_say](#lmc_say)
+* [lmc_get_window_title](#lmc_get_window_title)
+* [lmc_sleep](#lmc_sleep)
+* [lmc_reset](#lmc_reset)
+* [lmc_print_devices](#lmc_print_devices)
+* [lmc_get_devices](#lmc_get_devices)
+* [lmc_assign_keyboard](#lmc_assign_keyboard)
+* [lmc_device_set_name](#lmc_device_set_name)
+* [lmc_set_handler](#lmc_set_handler)
+* [lmc_set_axis_handler](#lmc_set_axis_handler)
+* [lmc_get_button](#lmc_get_button)
+* [lmc_add_com](#lmc_add_com)
+* [lmc_send_to_com](#lmc_send_to_com)
+* [lmc_xpl_command](#lmc_xpl_command)
+* [lmc_get_xpl_variable](#lmc_get_xpl_variable)
+* [lmc_set_xpl_variable](#lmc_set_xpl_variable)
+* [lmc_xpl_text](#lmc_xpl_text)
+* [lmc_xpl_command_begin](#lmc_xpl_command_begin)
+* [lmc_xpl_command_end](#lmc_xpl_command_end)
+* [lmc_on_xpl_var_change](#lmc_on_xpl_var_change)
+* [lmc_remove_xpl_var_change](#lmc_remove_xpl_var_change)
+* [lmc_xpl_log](#lmc_xpl_log)
+* [lmc_inc_xpl_variable](#lmc_inc_xpl_variable)
+* [lmc_inc_xpl_array_variable](#lmc_inc_xpl_array_variable)
+* [lmc_http_server](#lmc_http_server)
+* [lmc_http_get](#lmc_http_get)
+ --- 
 ### print
 To print a string message to log console
 
-Usage:
+#### Usage
 ```  lua
 print("Hello World!")
 ``` 
 ### clear
 To clear all log entries on log console 
 
-Usage:
+#### Usage
 ``` lua
 clear()
 ```
@@ -79,7 +117,7 @@ clear()
 ### lmc_log_all
 Enables the debug mode, sending all message logs to log console
 
-Usage:
+#### Usage
 ``` lua
 lmc_log_all()
 ```
@@ -94,7 +132,7 @@ Another side effect is the fact that it logs the keystrokes of all keyboards, so
 ### lmc_get_window_title
 To get the Application Window Title, useful to to have different behaviour on different programs
 
-Usage:
+#### Usage
 ``` lua
 lmc_get_window_title()
 ```
@@ -107,7 +145,7 @@ Obs:
 ### lmc_sleep
 To make the script stops for a specific amount of time, in milliseconds
 
-Usage:
+#### Usage
 ``` lua
 lmc_sleep(1000) -- to sleep the flow for 1 second
 ```
