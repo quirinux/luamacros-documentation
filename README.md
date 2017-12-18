@@ -1,5 +1,7 @@
 # luamacros-documentation
-Complementary documentation for the awesome https://github.com/me2d13/luamacros project.
+Complementary documentation for the awesome https://github.com/me2d13/luamacros project. 
+
+[![HitCount](http://hits.dwyl.io/quirinux/luamacros-documentation.svg)](http://hits.dwyl.io/quirinux/luamacros-documentation)
 
 This page aims to help new luamacros adopters and for that ones who like to use it better as well
 
