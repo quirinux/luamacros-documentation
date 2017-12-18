@@ -24,7 +24,7 @@ If I could add some works I would say it is extremally handful when a second key
 
 Need an inpiration? There it go, [a video editor guy](https://github.com/TaranVH/2nd-keyboard/tree/master/LUAMACROS), not a programmer, set it up to deal with a bunch of keyboards to make his life easier.
 
-## How-to get it installed?
+## How to get it installed?
 Easy peasy lemon squeezy:
 1. Download it on [lumacros github repository](https://github.com/me2d13/luamacros) or [click here](http://www.hidmacros.eu/luamacros.zip)
 2. Unzip it wherever you like, suggestion place it on the Desktop or on your Home folder
