@@ -127,8 +127,21 @@ Another side effect is the fact that it logs the keystrokes of all keyboards, so
 ### lmc_send_input
 ### lmc_spawn
 ### lmc_minimize
+Minimizes the LuaMacros Window
+
+#### Usage
+```  lua
+lmc_minimize()
+``` 
 ### lmc_load
 ### lmc_say
+Uses text to speech to audiably say the given text
+
+#### Usage
+``` lua
+lmc_say("Hello World")
+```
+
 ### lmc_get_window_title
 To get the Application Window Title, useful to to have different behaviour on different programs
 
@@ -152,6 +165,13 @@ lmc_sleep(1000) -- to sleep the flow for 1 second
 
 ### lmc_reset
 ### lmc_print_devices
+Prints the devices that are connected to the computer
+
+#### Usage
+``` lua
+lmc_print_devices()
+```
+
 ### lmc_get_devices
 ### lmc_assign_keyboard
 ### lmc_device_set_name
