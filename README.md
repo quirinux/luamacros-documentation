@@ -125,6 +125,14 @@ Once all Luamacros messages are logged on this mode, it is a good start point to
 Another side effect is the fact that it logs the keystrokes of all keyboards, so it is useful when trying to figure out some [virtua key-code](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx) to remap or to trigger
 ### lmc_send_keys
 ### lmc_send_input
+Enables programmatically pressing and releasing keys
+
+#### Usage
+```lua
+lmc_send_input(button, 0, 0) --Presses button down
+lmc_send_input(button, 0, 2) --Releases button
+```
+
 ### lmc_spawn
 ### lmc_minimize
 Minimizes the LuaMacros Window
